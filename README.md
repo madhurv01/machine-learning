@@ -1,3 +1,6 @@
+<img src="ml.webp" alt="GitHub Banner" width="100%" />
+
+
 # 💫 About Repo:
 The Machine Learning repository is dedicated to exploring the transformative field of machine learning, a subset of artificial intelligence that empowers systems to learn from data, identify patterns, and make predictions without explicit programming. This domain encompasses supervised, unsupervised, and reinforcement learning techniques, utilizing algorithms like linear regression, decision trees, neural networks, and clustering, implemented with tools such as Python, Scikit-learn, TensorFlow, and PyTorch. Spanning applications from predictive analytics to natural language processing and computer vision, this repository showcases practical projects, including model development, data preprocessing, feature engineering, and performance evaluation, serving as a valuable resource for beginners and experienced practitioners to build, experiment, and contribute to cutting-edge machine learning solutions.
 
