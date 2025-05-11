@@ -17,6 +17,50 @@ The Cinema Hit Predictor is an innovative machine learning project designed to f
 2.Minor Modules: os, uuid
 
 ```
+# Files Structure:
+```
+cinema-hit-predictor/
+│
+├── cinema_hit_predictor.png  # Image file, likely a screenshot or logo for the project
+├── app.py                    # Streamlit app script for deploying the web application
+├── model_weights.h5          # Pre-trained TensorFlow model weights in HDF5 format
+├── movies_extended.csv       # Dataset containing movie data for training and prediction
+├── readme.md                 # Project documentation and introduction
+└── train_model.py            # Python script for training the machine learning model
+```
+# Steps to Run:
+```
+1.Open a folder put all files in it (above one)
+
+2.Open the folder in VS Code (Recommended)
+
+3.First run the train_model.py file only in the terminal of the folder
+
+>> python train_model.py (in cmd of the folder in terminal )
+
+4.model_weights.h5 should appear for you after running it or else use the above .h5 file only
+
+5.Next run the app.py file
+
+>> streamlit run app.py (in cmd of the folder in terminal )
+
+6.The application gets deployed locally on streamlit and you will be able to see the application
+```
+# Major instructions :
+```
+1.Python environment should be configured well, i.e all modules should be available for it to work
+
+>>python -m venv venv ( in cmd of the terminal of the project folder )
+(source venv/bin/activate  # On Windows: venv\Scripts\activate )
+
+2.Do some necessay pip installs if required in the terminal
+
+>>pip install streamlit
+>>pip install tensorflow
+>>pip install pandas
+>>pip install numpy
+
+```
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=madhurv01&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=madhurv01&theme=dark&hide_border=false)<br/>
